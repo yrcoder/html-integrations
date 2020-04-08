@@ -5,9 +5,9 @@ import { AppComponent } from './app.component';
 
 import 'froala-editor/js/plugins.pkgd.min.js';
 // Expose FroalaEditor instance to window.
-declare const require: any;
-(window as any).FroalaEditor = require('froala-editor');
-import '@wiris/mathtype-froala3';
+// declare const require: any;
+// (window as any).FroalaEditor = require('froala-editor');
+// import '@wiris/mathtype-froala3';
 import { FroalaEditorModule, FroalaViewModule } from 'angular-froala-wysiwyg';
 
 @NgModule({

@@ -11,9 +11,9 @@ export class AppComponent implements OnInit {
   }
 
   public options: Object = {
-    toolbarButtons: ['bold', 'italic', 'underline','alert', 'wirisEditor', 'wirisChemistry'],
-    toolbarButtonsXS: ['bold', 'italic', 'underline', 'paragraphFormat', 'alert', 'wirisEditor', 'wirisChemistry'],
-    toolbarButtonsSM: ['bold', 'italic', 'underline', 'paragraphFormat', 'alert', 'wirisEditor', 'wirisChemistry'],
-    toolbarButtonsMD: ['bold', 'italic', 'underline', 'paragraphFormat', 'alert', 'wirisEditor', 'wirisChemistry'],
+    toolbarButtons: ['bold', 'italic', 'underline','alert', 'align', 'wirisEditor', 'wirisChemistry'],
+    toolbarButtonsXS: ['bold', 'italic', 'underline', 'paragraphFormat', 'alert', 'align', 'wirisEditor', 'wirisChemistry'],
+    toolbarButtonsSM: ['bold', 'italic', 'underline', 'paragraphFormat', 'alert', 'align', 'wirisEditor', 'wirisChemistry'],
+    toolbarButtonsMD: ['bold', 'italic', 'underline', 'paragraphFormat', 'alert', 'align', 'wirisEditor', 'wirisChemistry'],
   };
 }

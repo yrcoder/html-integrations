@@ -6,6 +6,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## How to reproduce the issue
+
+Once the development server is ready, you will se the froala editor without the wiris plugin dispolayed, but it is loaded and you can check it asa follows:
+
+ · Open the navigator console.
+ · Write FroalaEditor. You will see that it has content associated
+ · Write FroalaEditor.PLUGINS. You will see that the list of froala editor plugins exists. We loaded align plugin to test if we load plugins in the same way and it's loaded and displayed.
+ · Now let's check if wiris plugin exists. Write FroalaEditor.PLUGINS.wiris and you will see that it's an existing plugin but it's not displayed.
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
